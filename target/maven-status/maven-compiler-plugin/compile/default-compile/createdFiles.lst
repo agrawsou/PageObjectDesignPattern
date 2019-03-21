@@ -1,0 +1,11 @@
+com\qa\pages\LoginPage.class
+com\qa\pages\SignUpPage.class
+com\qa\utils\WebEventListener.class
+com\qa\extentReportListener\ExtentReporterNG.class
+com\qa\utils\TestUtils.class
+com\qa\pages\ContactsPage.class
+com\qa\pages\TaskPage.class
+com\qa\pages\HomePage.class
+com\qa\pages\DealsPage.class
+com\qa\utils\ExcelDataConfig.class
+com\qa\base\TestBase.class
