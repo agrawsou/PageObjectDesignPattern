@@ -7,5 +7,6 @@ com\qa\pages\ContactsPage.class
 com\qa\pages\TaskPage.class
 com\qa\pages\HomePage.class
 com\qa\pages\DealsPage.class
+com\qa\pages\SearchPage.class
 com\qa\utils\ExcelDataConfig.class
 com\qa\base\TestBase.class

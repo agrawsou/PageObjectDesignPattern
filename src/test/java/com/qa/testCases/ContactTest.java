@@ -59,7 +59,7 @@ public class ContactTest extends TestBase{
 	
 	@DataProvider
 	public Iterator<Object[]> getData() throws Exception {
-		ArrayList<Object[]> ir = ExcelDataConfig.excelData("C:\\Users\\USER\\eclipse-workspace\\PageObjectDesignPattern\\src\\main\\java\\com\\qa\\testData\\TestData.xlsx");
+		ArrayList<Object[]> ir = ExcelDataConfig.excelData("C:\\Users\\Sourabh Agrawal\\PageObjectDesignPattern\\src\\main\\java\\com\\qa\\testData\\TestData.xlsx");
         return ir.iterator();
 	}
 	

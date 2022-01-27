@@ -26,7 +26,7 @@ public class TestBase {
 		
 		prop = new Properties();
 		try {
-			FileInputStream fi = new FileInputStream("C:\\Users\\USER\\eclipse-workspace\\PageObjectDesignPattern\\src\\main\\java\\com\\qa\\config\\config.properties");
+			FileInputStream fi = new FileInputStream("C:\\Users\\Sourabh Agrawal\\PageObjectDesignPattern\\src\\main\\java\\com\\qa\\config\\config.properties");
 			try {
 				prop.load(fi);
 			} catch (IOException e) {
@@ -44,7 +44,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\USER\\Downloads\\chromedriver_win32\\chromedriver.exe");
+					"C:\\Users\\Sourabh Agrawal\\PageObjectDesignPattern\\chromedriver.exe");
 			 driver = new ChromeDriver();
 		}
 		else if(browserName.equals("firefox")) {
